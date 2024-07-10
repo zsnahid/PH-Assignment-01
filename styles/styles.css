@@ -14,13 +14,33 @@
     font-style: normal;
 }
 
-.primary-color{
+.primary-color {
     color: #0D1321;
 }
 
-.subtitles-color{
+.subtitles-color {
     color: rgb(13, 19, 33);
     opacity: 0.7;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 44px 0px;
+}
+
+.section-subtitle {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin: 0px 0px 44px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.section-width {
+    width: 1140px;
+    margin: 0 auto;
 }
 
 /* header styles */
@@ -45,12 +65,12 @@
     text-align: center;
 }
 
-.hero-content h1{
+.hero-content h1 {
     font-size: 48px;
     font-weight: 800;
 }
 
-.hero-content button{
+.hero-content button {
     background-color: rgb(13, 19, 33);
     padding: 20px 24px;
     border-radius: 8px;
@@ -62,7 +82,7 @@
 
 /* why web dev styles */
 
-.reasons{
+.reasons {
     background-color: rgba(13, 19, 33, 0.02);
     margin: 80px auto;
     width: 1140px;
@@ -70,17 +90,12 @@
     padding: 80px 97px;
 }
 
-.reasons h2{
-    font-size: 32px;
-    font-weight: 800;
-}
-
-.reasons > h2, .reasons > p{
+/* .reasons > h2, .reasons > p{
     text-align: center;
     margin: 44px 0px;
-}
+} */
 
-.card-content{
+.card-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,28 +105,85 @@
     gap: 100px;
 }
 
-.card-bg-style-one{
+.card-bg-style-one {
     background-image: linear-gradient(to right, white, transparent);
 }
 
-.card-bg-style-two{
+.card-bg-style-two {
     background-image: linear-gradient(to left, white, transparent);
 }
 
-.card-texts > h3, p, button{
+.card-texts>h3,
+p,
+button {
     margin-bottom: 30px;
 }
 
-.card-texts h3{
+.card-texts h3 {
     font-size: 24px;
     font-weight: 700;
 }
 
-.learn-more-btn{
+.learn-more-btn {
     padding: 12px 20px;
     border: 1px solid;
     border-color: rgba(13, 19, 33, 0.4);
     font-size: 20px;
     font: 600;
     background-color: white;
+}
+
+/* my inspiration styles */
+
+#my-inspiration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#my-inspiration p {
+    margin-top: 0px;
+}
+
+#my-inspiration iframe {
+    padding: 32px;
+    border: 1px solid grey;
+    border-radius: 16px;
+    margin-bottom: 44px;
+}
+
+/* my current target styles */
+
+#current-target-section {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.target-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.target-card-content {
+    width: 340px;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+.html {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
 }
