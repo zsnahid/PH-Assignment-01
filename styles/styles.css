@@ -45,6 +45,11 @@
     text-align: center;
 }
 
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
 .hero-content button{
     background-color: rgb(13, 19, 33);
     padding: 20px 24px;
@@ -65,6 +70,11 @@
     padding: 80px 97px;
 }
 
+.reasons h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+
 .reasons > h2, .reasons > p{
     text-align: center;
     margin: 44px 0px;
@@ -74,14 +84,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aliceblue;
     margin-bottom: 32px;
     padding: 48px;
     border-radius: 16px;
+    gap: 100px;
+}
+
+.card-bg-style-one{
+    background-image: linear-gradient(to right, white, transparent);
+}
+
+.card-bg-style-two{
+    background-image: linear-gradient(to left, white, transparent);
 }
 
 .card-texts > h3, p, button{
     margin-bottom: 30px;
+}
+
+.card-texts h3{
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .learn-more-btn{
@@ -90,4 +113,5 @@
     border-color: rgba(13, 19, 33, 0.4);
     font-size: 20px;
     font: 600;
+    background-color: white;
 }
