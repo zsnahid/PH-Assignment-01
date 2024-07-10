@@ -187,3 +187,45 @@ button {
 .js{
     background-color: rgba(255, 223, 0, 0.05);
 }
+
+/* support section style */
+
+#support-section{
+    background-image: linear-gradient(0deg, black, transparent), url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1140px;
+    border-radius: 16px;
+    margin: 50px auto;
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#support-section h2{
+    color: white;
+}
+
+#support-section p{
+    color: white;
+    opacity: 1.0;
+}
+
+#support-section input{
+    width: 548px;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+#support-section button{
+    padding: 17px 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
